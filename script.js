@@ -10,9 +10,9 @@ btn_stringify.addEventListener("click", () => {
     str1 = JSON.stringify(headerIp.value);
     str2 = JSON.stringify(footerIp.value);
     let cms = cmsjson(str1, str2);
-    console.log(cms);
+    //console.log(cms);
     finalstr = JSON.stringify(cms);
-    console.log(finalstr);
+    //console.log(finalstr);
     output.innerText = finalstr;
 });
 
